@@ -9,7 +9,7 @@ jQuery(function($) {
   new WOW().init();
 
 
-  /* ------ Countdown ----- */
+  /* ------ Countdown ----- 
 
   $('#countdown').countdown({
   			date: '11/01/2016 17:00:00',
@@ -19,7 +19,7 @@ jQuery(function($) {
   		}, function () {
   			alert('Done!');
   		});
-
+*/
 
 /*----- Preloader ----- */
 
