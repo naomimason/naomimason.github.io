@@ -29,6 +29,7 @@ All Contents
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro:300,300i');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -78,7 +79,7 @@ table {
 /* --- Common Styles ---*/
 
 h1 {
-  font-size: 16px;
+  font-family: 'Roboto Slab', serif;
 }
 
 /*----- Helper Classes -----*/
@@ -105,12 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 ::-moz-selection {
-    color: #1106CC;
+    color: #db1f26;
     background: #FFFF99;
 }
 
 ::selection {
-    color: #1106CC;
+    color: #db1f26;
     background: #FFFF99;
 }
 
@@ -137,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 .after-line {
 	height: 3px;
 	width: 100px;
-	background: #001CFF;
+	background: #db1f26;
 	margin-top: -10px;
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -236,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 .top-nav a {
   position: relative;
   display: inline-block;
-  color: #111111;
+  color: #eeeeee;
   text-decoration: none;
 }
 
@@ -247,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
   bottom: -3px;
   left: 0;
-  background-color: #072DEF;
+  background-color: #db1f26;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -273,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
   bottom: -3px;
   left: 0;
-  background-color: #072DEF;
+  background-color: #db1f26;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -304,7 +305,6 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 20px;
   right: 20px;
-  border-radius: 50px;
 	background-color: #F2F2F1;
 	z-index: 111;
   transition: all 400ms ease-in;
@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -3px;
   left: 0;
-  background-color: #072DEF;
+  background-color: #db1f26;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -556,7 +556,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-social i, .nav-social a {
   font-size: 21px;
-  color: #072DEF;
+  color: #db1f26;
 }
 
 .nav-social a:before {
@@ -643,7 +643,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0 40px 0 40px;
 	width: 50%;
 	height: 100%;
-  background: #FFFFFF;
+  background: #222;
   z-index: 99;
   overflow: hidden;
   overflow-y: auto;
@@ -656,22 +656,18 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .intro .intro-text h4 {
-	font-family: Poppins;
+	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
-	font-weight: 600;
-	color: #A1A1A1;
-	letter-spacing: 2px;
+	color: #d1d1d1;
 	text-transform: uppercase;
 	line-height: 1.2;
 	margin: 0 0 20px 0;
 }
 
 .intro .intro-text h1 {
-	font-family: Poppins;
+	font-family: 'Roboto Slab', serif;
 	font-size: 42px;
-	font-weight: 600;
-	color: #404040;
-	letter-spacing: -2px;
+	color: #EEE;
 	line-height: 1.2;
 	margin: 0 0 15px 0;
 }
@@ -680,7 +676,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Poppins;
 	font-size: 16px;
 	font-weight: 400;
-	color: #A1A1A1;
+	color: #d1d1d1;
 	letter-spacing: 0px;
 	line-height: 1.5;
 	margin: 0 0 20px 0;
@@ -702,19 +698,21 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	margin-right: 15px;
 }
+body{
+	color: #DDDDDD;
+}
 
 .btn-contact {
 	font-family: Work Sans;
 	font-size: 16px;
 	font-weight: 600;
-	color: #001CFF;
+	color: #db1f26;
 	display: inline-block;
 	text-transform: uppercase;
 	background: transparent;
 	border: 2px solid;
-	border-color: #001CFF;
+	border-color: #db1f26;
 	padding: 10px 20px;
-	border-radius: 25px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	-webkit-transform: 0.5s;
@@ -723,9 +721,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-contact:hover, .btn-contact:focus {
-	color: #FFFFFF;
-	background: #001CFF;
-	border-color: #001CFF;
+	color: #1e1e1e;
+	background: #db1f26;
+	border-color: #db1f26;
 	text-decoration: none;
 }
 
@@ -743,7 +741,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Poppins;
 	font-size: 12px;
 	font-weight: 400;
-	color: #A1A1A1;
+	color: #d1d1d1;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	margin: 0 0 10px 0;
@@ -809,7 +807,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Poppins;
 	font-size: 12px;
 	font-weight: 400;
-	color: #A1A1A1;
+	color: #d1d1d1;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	margin: 0 0 10px 0;
@@ -856,7 +854,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
-  color: #A1A1A1;
+  color: #d1d1d1;
 	text-align: left;
 	margin: 20px 0 0 0 ;
   letter-spacing: 1px;
@@ -875,7 +873,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about .btn-contact {
-	border: 2px solid #001CFF;
+	border: 2px solid #db1f26;
 	padding: 4px 12px;
 	margin: 1em auto;
 }
@@ -896,7 +894,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Poppins;
 	font-size: 14px;
 	font-weight: 400;
-	color: #A1A1A1;
+	color: #d1d1d1;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin: 0 0 10px 0;
@@ -1064,7 +1062,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 400;
-	color: #A1A1A1;
+	color: #d1d1d1;
 }
 
 .project-image {
@@ -1085,7 +1083,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Poppins;
 	font-size: 14px;
 	font-weight: 400;
-	color: #A1A1A1;
+	color: #d1d1d1;
 	line-height: 1.8;
 }
 
@@ -1107,7 +1105,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Poppins;
 	font-size: 14px;
 	font-weight: 400;
-	color: #A1A1A1;
+	color: #d1d1d1;
 	line-height: 1.4;
 }
 
@@ -1202,7 +1200,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Poppins;
 	font-size: 28px;
 	font-weight: 600;
-	color: #001CFF;
+	color: #db1f26;
 	line-height: 1.3;
 	margin-bottom: 20px;
 }
@@ -1211,7 +1209,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Poppins;
 	font-size: 14px;
 	font-weight: 300;
-	color: #A1A1A1;
+	color: #d1d1d1;
 	line-height: 1.5;
 }
 
@@ -1224,7 +1222,7 @@ label {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 500;
-  color: #001CFF;
+  color: #db1f26;
 	text-align: left;
 }
 
@@ -1243,7 +1241,7 @@ label {
 }
 
 .form-control:focus {
-  border-color: #001CFF;
+  border-color: #db1f26;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -1288,8 +1286,8 @@ label {
   margin-bottom: 20px;
   border-radius: 0px;
   color: #FFFFFF;
-  background: #001CFF;
-	border-color: #001CFF;
+  background: #db1f26;
+	border-color: #db1f26;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
     transition: 0.5s;
@@ -1342,7 +1340,7 @@ label {
 	font-size: 12px;
 	font-weight: 400;
 	padding-right: 20px;
-	color: #072DEF;
+	color: #db1f26;
 	text-decoration: none;
 }
 
